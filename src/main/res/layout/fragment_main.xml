@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+    >
+
+    <com.shier.news.view.NoScrollViewPager
+        android:id="@+id/mainFragment_viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/bottom_tab_bg"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_home"
+            style="@style/radioButStyle"
+            android:drawableTop="@drawable/selector_rb_home"
+            android:text="首页"/>
+
+        <RadioButton
+            android:id="@+id/rb_newscenter"
+            style="@style/radioButStyle"
+            android:drawableTop="@drawable/selector_rb_newscenter"
+            android:text="新闻"/>
+
+        <RadioButton
+            android:id="@+id/rb_smartservice"
+            style="@style/radioButStyle"
+            android:drawableTop="@drawable/selector_rb_smartservice"
+            android:text="服务"/>
+
+        <RadioButton
+            android:id="@+id/rb_govaffair"
+            style="@style/radioButStyle"
+            android:drawableTop="@drawable/selector_rb_goveraffair"
+            android:text="政务"/>
+
+        <RadioButton
+            android:id="@+id/rb_setting"
+            style="@style/radioButStyle"
+            android:drawableTop="@drawable/selector_rb_setting"
+            android:text="设置"/>
+    </RadioGroup>
+</LinearLayout>

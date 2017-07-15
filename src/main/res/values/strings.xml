@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">newsclient</string>
+    <string name="img">img</string>
+    <string name="left_menu_fragment">侧滑</string>
+    <string name="main_fragment">主页面</string>
+    <string name="firstPageTitle">智慧</string>
+    <string name="load">正在加载中........</string>
+</resources>
